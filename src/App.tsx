@@ -5,7 +5,7 @@ import { PomodoroTimer } from './components/pomodoro-timer';
 function App(): JSX.Element {
   return (
   <div className="app">
-    <PomodoroTimer defaultPomodoroTime={1500}/>
+    <PomodoroTimer defaultPomodoroTime={60}/>
   </div>
   );
 }
