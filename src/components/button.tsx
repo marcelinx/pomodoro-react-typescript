@@ -3,7 +3,7 @@ import React from 'react';
 interface Props {
   text: string;
   onClick?: () => void;
-  classicName?: string;
+  className?: string;
 }
 
 export function Button(props: Props): JSX.Element {
